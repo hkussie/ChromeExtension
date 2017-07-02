@@ -1,0 +1,14 @@
+{
+  "name": "Color Changer",
+  "description": "The user can change the background color of the webpage their visiting.",
+  "version": "1.0",
+  "permissions": [
+    "tabs", "http://*/*", "https://*/*"
+  ],
+  "browser_action": {
+      "default_title": "Set the color of the page.",
+      "default_icon": "icon.png",
+      "default_popup": "myPopUp.html"
+  },
+  "manifest_version": 2
+}
